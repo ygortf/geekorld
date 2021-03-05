@@ -1,0 +1,314 @@
+/*HOME E GERAL*/
+
+html {
+    font-family: 'Comfortaa', cursive;
+    background-color: ghostwhite;
+    color: whitesmoke;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, h1, h2, h3, p {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+main {
+    width: 1200px;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 0 0 10px #666;
+    overflow: hidden;
+    background:linear-gradient(to bottom, #F5F5F5, #DCDCDC);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5px;
+    background-color: black;
+    padding: 5px;
+    clear: both;
+}
+
+h2 {
+    font-size: 160%;
+}
+
+footer {
+    background-image: url(../_imagens/background-header-footer.png);
+    clear: both;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#cabecalho {
+    background-image: url(../_imagens/background-header-footer.png);
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#logo {
+    position: relative;
+    margin: 20px auto;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../_imagens/background-nav.jpg);
+}
+
+#menu ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    display: inline;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    color: whitesmoke;
+}
+
+#menu ul li a:hover {
+    background-color: orangered;
+    color: black;    
+}
+
+#secao0 {
+    width: 1190px;
+    padding: 1px 5px 5px 5px;
+    margin: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#img-do-dia img {
+    width: 1140px;
+    box-shadow: 2px 0 20px #666;
+    transition: all 0.7s;
+    max-width: 100%;
+}
+
+#img-do-dia img:hover {
+    transform: scale(1.05);
+}
+
+#chamada h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    position: relative;
+    background-color: orangered;
+}
+
+#chamada p {
+    color: black;
+    font-size: 25px;
+}
+
+#chamada a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#secao1 {
+    float: left;
+    width: 365px;
+    padding: 1px 8px 5px 8px;
+    margin-bottom: 20px;
+    border-left: 2px solid #333333;
+}
+
+#secao2 {
+    float: left;
+    width: 365px;
+    padding: 1px 8px 5px 8px;
+    margin-left: 38px;
+    margin-bottom: 20px;
+    border-left: 2px solid #333333;
+    border-right: 2px solid #333333;
+}
+
+#secao3 {
+    float: right;
+    width: 365px;
+    padding: 1px 8px 5px 8px;
+    margin-bottom: 20px;
+    border-right: 2px solid #333333;
+}
+
+.artigo div {
+    height: 400px;
+}
+
+.artigo {
+    text-align: center;
+    padding: 5px;
+}
+
+#recentes h2 a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: orangered;
+    padding: 3px 15px 3px 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.artigo img {
+    width: 340px;
+    height: 200px;
+    border: 1px solid orangered;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #666;
+}
+
+.artigo h3 {
+    color: orangered;
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.artigo p {
+    text-align: justify;
+    color: black;
+    margin: 1px 5px;
+    padding: 0 0 10px 0;
+    text-indent: 2em;
+}
+
+.artigo a {
+    text-decoration: none;
+}
+
+.artigo .data {
+    font-family: Arial, sans-serif;
+    float: right;
+    color: gray;
+    margin-top: 15px;
+}
+
+.redes-sociais {
+    width: 35px;
+    height: 35px;
+    margin: 10px 15px;
+}
+
+#copyright {
+    color: gray;
+}
+
+/*/////////OUTRA PAGES/////////*/
+
+#principal-outros {
+    width: 1190px;
+    padding: 1px 5px 5px 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.artigo-outros {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+.artigo-outros h3 {
+    color: orangered;
+    font-size: 150%;
+}
+
+.artigo-outros p {
+    color: black;
+}
+
+.artigo-outros img {
+    width: 400px;
+    height: 200px;
+    float: left;  
+    margin-right: 25px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #666;
+}
+
+.artigo-outros .data {
+    font-family: Arial, sans-serif;
+    color: gray;
+    clear: both;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.artigo-outros a {
+    text-decoration-color: black;
+    text-align: center;
+}
+
+#proxima-pagina {
+    text-decoration-color: black;
+    color: black;
+    font-size: 18px;
+}
+
+#sobre img {
+    height: 195px;
+    width: 200px;
+    float: right;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+#sobre p {
+    color: black;
+    font-size: 23px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#sobre p:first-of-type:first-letter {
+    font-size: 50px;
+}
+
+
+#sugestoes {
+    color: black;
+}
+
+input {
+	display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+	border-radius:3px;
+}
+
+#coment {
+    width: 600px;
+    height: 200px;
+}
+
+input[type=submit] {
+	width:100px;
+	color: white;
+	background: orangered;
+	border:1px solid #333;
+	cursor:pointer;
+    margin: 40px auto 5px;
+}
